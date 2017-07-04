@@ -148,7 +148,7 @@ console.log(
     : 'Ceará não foi incluído :('
 );
 // MAP() // Percorre todo o array e retorna ele inteiro ******************************
-var map = newBrasil.map(function(item, index){
+var map = newBrasil.map(function(item, index, array){
     item.id++;
     item.estado += ' pertence ao Brasil';
     return item;
